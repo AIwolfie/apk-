@@ -1,0 +1,24 @@
+/* Basic App Layout */
+.App { text-align: center; font-family: sans-serif; }
+.App-header { background-color: #282c34; padding: 20px; color: white; margin-bottom: 30px; }
+
+/* Upload Box */
+.upload-box { border: 2px dashed #ccc; border-radius: 10px; padding: 40px 20px; cursor: pointer; max-width: 600px; margin: 20px auto; }
+.upload-box:hover { border-color: #007bff; }
+
+/* Scanning Indicator */
+.scanning-indicator { margin-top: 50px; }
+.spinner { border: 8px solid #f3f3f3; border-top: 8px solid #3498db; border-radius: 50%; width: 60px; height: 60px; animation: spin 2s linear infinite; margin: 20px auto; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* Report Dashboard
+.report-dashboard { text-align: left; max-width: 800px; margin: 20px auto; }
+.report-dashboard h2 { text-align: center; }
+.report-dashboard button { display: block; margin: 10px auto 20px; padding: 10px 15px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+.vulnerability { border: 1px solid #ddd; border-radius: 5px; margin-bottom: 10px; }
+.vulnerability summary { font-weight: bold; padding: 10px; cursor: pointer; }
+.vulnerability-details { padding: 0 15px 15px 15px; background-color: #f9f9f9; }
+.vulnerability-details pre { background-color: #eee; padding: 10px; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+.vulnerability.critical summary { background-color: #f8d7da; border-left: 5px solid #721c24; }
+.vulnerability.high summary { background-color: #fff3cd; border-left: 5px solid #856404; }
+.vulnerability.medium summary { background-color: #d1ecf1; border-left: 5px solid #0c5460; } */

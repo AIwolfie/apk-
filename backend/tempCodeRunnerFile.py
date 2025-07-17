@@ -1,0 +1,1 @@
+['java', '-jar', 'C:/Apktool/apktool.jar', 'd', apk_path, '-o', decompiled_path, '-f'],
